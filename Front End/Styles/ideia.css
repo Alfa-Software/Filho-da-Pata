@@ -1,0 +1,18 @@
+body,html{
+  margin: 0;
+  width: 100%;
+  background-color: #363537;
+}
+#logo{
+  width:20%;
+  margin: 30px;
+}
+#card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10%;
+}
+#card_{
+  width:80%;
+}
+
