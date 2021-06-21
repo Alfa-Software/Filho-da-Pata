@@ -1,0 +1,54 @@
+body,html{
+    margin: 0;
+    width: 100%;
+    background-color: #363537;
+  
+}
+
+header{
+    box-shadow: inset 0 0 0 black, 0 0 3em black;
+    background-color: #363537;
+    height: 4%;
+    max-height: 84px;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+#logo{
+    width: 15%;
+    max-width: 94px ;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.li_c{
+    text-decoration:none;
+    color: #FF4242;
+    float: right;
+    margin-top: 2% ;
+    margin-left: 2% ;
+    font-size: 150%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+}
+.li_c:hover{
+    cursor: pointer;
+    color: #Fff;
+    transition: 0.5s;
+}
+
+
+
+@media screen and (min-width: 1366px){
+#logo{
+    width: 134px;
+    margin: 25px;
+}
+.page{
+    width: 1366px;
+    margin: auto;
+}
+}
+
+
